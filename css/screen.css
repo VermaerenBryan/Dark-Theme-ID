@@ -96,6 +96,12 @@ html {
 
   :root {
     --global-color-neutral-xxxxx-light: #35374d;
+    --global-color-neutral-xxx-light: #20223a;
+    --global-color-neutral-x-light: #757787;
+    --global-color-neutral-xx-dark: #b5b6c0;
+    --global-input-backgroundColor: #20223a;
+    --global-input-borderColor: none;
+    --global-color-alpha-x-transparent: #3385ff;
     --global-page-backgroundColor: var(--color-neutral-xxxx-dark);
   }
 
@@ -734,6 +740,7 @@ input::placeholder {
   border: var(--global-borderWidth) solid var(--global-input-borderColor);
   margin-right: var(--global-whitespace-sm);
   border-radius: var(--global-borderRadius);
+  background-color: var(--global-input-backgroundColor);
 }
 
 .c-custom-option__fake-input--radio {
